@@ -18,6 +18,8 @@ on X", "what's shipping", "are we behind", "what's stuck", "usage vs plan".
    (planned vs delivered this period).
 5. Need one specific dimension (just tasks, just approvals)? `query_account`
    with that `dataType`.
+6. Before scoping new work, `check_workflow` to see whether work for that
+   service line is already in flight (avoids duplicate scoping).
 
 ## Report
 Lead with the overall status, then: **shipping now**, **stuck / at risk** (with

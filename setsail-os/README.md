@@ -6,7 +6,8 @@ OS the way the team does.
 ## What you get
 
 **Tools** (from the OS MCP server at `https://os.setsail.ca/api/mcp/mcp`):
-- `search_records` — find companies, deals, tasks, approvals by keyword
+- `search_records` — find companies, deals, tasks, approvals by keyword (a finder, capped — not for counting)
+- `pipeline_summary` — count the pipeline by stage across your book (leads and deals, per-stage counts + value)
 - `get_account_context` — strategy, health, billing, timeline, tasks, approvals…
 - `search_account_comms` — emails, calls, meeting transcripts
 - `log_account_note` — add a note to an account timeline (asks to confirm)
@@ -15,7 +16,7 @@ OS the way the team does.
 **Skills** (auto-invoked when relevant):
 - `account-prep` — meeting / "what's going on with X" briefs
 - `account-triage` — what needs attention, ranked by urgency
-- `deal-desk` — list/inspect deals, move stage, provision won deals
+- `deal-desk` — count the pipeline by stage; list/inspect deals; move a lead or deal between stages; convert a won lead to a deal; provision won deals
 - `delivery-status` — how delivery is tracking for a client
 - `deep-dive-worksheet` — create / find / edit a client discovery worksheet
 - `log-discipline` — clean, confirmed note logging

@@ -18,8 +18,12 @@ status / "what's going on with X" / "catch me up on X" question about an account
    `billing` for commercial conversations, `seo` for delivery reviews.
 3. **Pull recent comms.** Call `search_account_comms` for the client — pass the
    meeting topic as the query if there is one, otherwise omit it to list recent
-   calls/emails.
-4. **Synthesize** into a tight brief:
+   calls/emails. For a specific transcript or thread, `query_calls` /
+   `query_emails` (mode `get`/`search`) go deeper than the summary search.
+4. **(Optional) Pull files / evaluate an asset.** `read_account_files` for
+   attached research/docs; `evaluate_asset` to get an AI read on a creative or
+   asset URL before the call.
+5. **Synthesize** into a tight brief:
    - **Where things stand** — strategy + health in 2-3 lines
    - **Open items** — pending approvals, stuck tasks, anything awaiting them or us
    - **Recent signal** — what they last said / what changed (cite the call/email)
