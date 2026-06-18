@@ -27,10 +27,18 @@ deals are open on X", "what's the quote total", "is this ready to provision".
   client-facing action: call once for a **preview**, then re-call with
   `confirm: true` to execute. Surface any blockers it returns.
 
+## Pipeline + scoping reads
+- **`pipeline_summary`** — book-wide open deals by stage with total + probability-
+  weighted value ("what's my pipeline", "how much is in negotiation", "forecast").
+- **`check_workflow`** — before scoping new work, check whether work for that
+  service line is already in flight for the account (avoids duplicate scoping).
+
+## Quoting
+Quote authoring — propose a range → create → modify → lock — is its own flow;
+see the **quote-desk** skill. After a quote is locked and the deal is won,
+`provision_deal` turns it into client work.
+
 ## Report
 For a deal: stage, value, quote status, work provisioned. Keep it scannable.
-
-## Note
-Quote authoring (create/modify/lock a quote) isn't on this connector yet — do
-that in the OS for now. Everything is scoped to your book and role, and each
-write is audit-logged.
+Everything is scoped to your book and role, and each write is audit-logged; the
+client also prompts before each write.
