@@ -1,0 +1,22 @@
+{
+  "name": "setsail-os",
+  "displayName": "Setsail OS",
+  "version": "1.0.0",
+  "description": "Connect Claude to Setsail OS via MCP — search records, pull account context, read emails/calls, and log notes — with playbooks for using them well.",
+  "author": {
+    "name": "Bailey Fisher",
+    "email": "hello@baileyfisher.me"
+  },
+  "homepage": "https://os.setsail.ca/settings/mcp",
+  "repository": "https://github.com/setsailhq/os-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["setsail", "os", "mcp", "crm", "operations"],
+  "mcpServers": {
+    "os-api": {
+      "type": "http",
+      "url": "https://os.setsail.ca/api/mcp/mcp",
+      "oauth": {}
+    }
+  },
+  "skills": "./skills/"
+}

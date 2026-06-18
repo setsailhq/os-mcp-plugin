@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "setsail-os",
+      "displayName": "Setsail OS",
+      "description": "Connect Claude to Setsail OS — live account context, strategy, comms, and account notes, plus playbooks for using them well.",
+      "source": "setsail-os",
+      "author": {
+        "name": "Bailey Fisher",
+        "email": "hello@baileyfisher.me"
+      },
+      "keywords": ["setsail", "os", "mcp", "crm", "operations"],
+      "defaultEnabled": false
+    }
+  ]
+}
