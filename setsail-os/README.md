@@ -10,7 +10,7 @@ OS the way the team does.
 - `get_account_context` — strategy, health, billing, timeline, tasks, approvals…
 - `search_account_comms` — emails, calls, meeting transcripts
 - `log_account_note` — add a note to an account timeline (asks to confirm)
-- `list_worksheets` / `create_worksheet` / `revise_worksheet` — build + edit client discovery worksheets and get their fillable URLs
+- `list_worksheets` / `read_worksheet` / `create_worksheet` / `revise_worksheet` — build, read, and edit client discovery worksheets and get their fillable URLs
 
 **Skills** (auto-invoked when relevant):
 - `account-prep` — meeting / "what's going on with X" briefs
