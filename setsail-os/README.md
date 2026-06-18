@@ -10,12 +10,14 @@ OS the way the team does.
 - `get_account_context` — strategy, health, billing, timeline, tasks, approvals…
 - `search_account_comms` — emails, calls, meeting transcripts
 - `log_account_note` — add a note to an account timeline (asks to confirm)
-- `list_worksheets` / `create_worksheet` / `revise_worksheet` — build + edit client deep dive worksheets and get their fillable URLs
+- `list_worksheets` / `create_worksheet` / `revise_worksheet` — build + edit client discovery worksheets and get their fillable URLs
 
 **Skills** (auto-invoked when relevant):
 - `account-prep` — meeting / "what's going on with X" briefs
 - `account-triage` — what needs attention, ranked by urgency
-- `deep-dive-worksheet` — create / find / edit a client deep dive worksheet
+- `deal-desk` — list/inspect deals, move stage, provision won deals
+- `delivery-status` — how delivery is tracking for a client
+- `deep-dive-worksheet` — create / find / edit a client discovery worksheet
 - `log-discipline` — clean, confirmed note logging
 
 Everything is scoped to your role and your book, and every call is audit-logged

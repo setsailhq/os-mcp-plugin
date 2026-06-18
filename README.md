@@ -18,14 +18,11 @@ Then run `/mcp` and sign in to the OS in the browser.
 .claude-plugin/marketplace.json   ← this marketplace
 setsail-os/                       ← the plugin (see its README)
   .claude-plugin/plugin.json
-  skills/{account-prep,account-triage,log-discipline}/SKILL.md
+  skills/{account-prep,account-triage,deal-desk,delivery-status,deep-dive-worksheet,log-discipline}/SKILL.md
   README.md
 ```
 
 ## Publishing
-This folder is the marketplace root. Push it to its own repo
-(`github.com/setsailhq/os-mcp-plugin`) — or keep it as a subdirectory and point
-teammates at the repo + path. Update the `url` in
-`setsail-os/.claude-plugin/plugin.json` and the install URL above if the repo
-name differs. See `docs/modules/mcp-server.md` in the main OS repo for the full
-server + auth design.
+This folder is the marketplace root, mirrored to its own repo
+(`github.com/setsailhq/os-mcp-plugin`). Run `pnpm publish:plugin` from the main
+OS repo to sync this folder to it.
