@@ -17,6 +17,5 @@
       "url": "https://os.setsail.ca/api/mcp/mcp",
       "oauth": {}
     }
-  },
-  "skills": "./skills/"
+  }
 }

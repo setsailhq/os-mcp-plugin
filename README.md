@@ -1,7 +1,8 @@
 # Setsail OS — Claude Code plugin marketplace
 
 A Claude Code plugin marketplace hosting the **setsail-os** plugin, which connects
-Claude to Setsail OS via MCP and bundles team playbook skills.
+Claude to Setsail OS via MCP (the **tools**). The team's skill **playbooks** live
+in the PostHog skill store and install separately (see `setsail-os/README.md`).
 
 ## Add this marketplace + install
 
@@ -17,8 +18,7 @@ Then run `/mcp` and sign in to the OS in the browser.
 ```
 .claude-plugin/marketplace.json   ← this marketplace
 setsail-os/                       ← the plugin (see its README)
-  .claude-plugin/plugin.json
-  skills/{account-prep,account-triage,deal-desk,delivery-status,deep-dive-worksheet,log-discipline}/SKILL.md
+  .claude-plugin/plugin.json        (tools only — skills live in PostHog)
   README.md
 ```
 
