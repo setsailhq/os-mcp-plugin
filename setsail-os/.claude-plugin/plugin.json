@@ -1,7 +1,7 @@
 {
   "name": "setsail-os",
   "displayName": "Setsail OS",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Connect Claude to Setsail OS via MCP — search records, pull account context, read emails/calls, and log notes — with playbooks for using them well.",
   "author": {
     "name": "Bailey Fisher",
